@@ -9,7 +9,7 @@ public class PetOwner {
 
     //@Autowired //wiring by type
     //@Qualifier("qf_cat")
-    @Resource(name = "dog")
+    @Resource(name = "cat")
     private AnimalType animal;
 
 

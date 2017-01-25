@@ -25,11 +25,15 @@
     <bean id="logger" class="aop.Logger">
     </bean>
 
+    <!--
     <aop:config>
         <aop:aspect id="myAspect" ref="logger">
             <aop:pointcut id="selectSound" expression="execution(void aop.*.sound())" />
             <aop:before method="aboutToSound" pointcut-ref="selectSound" />
         </aop:aspect>
     </aop:config>
+    -->
+
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
 
 </beans>
