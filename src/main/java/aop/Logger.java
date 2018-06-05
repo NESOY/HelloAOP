@@ -13,9 +13,16 @@ public class Logger {
     private void selectSound(){ // PointCut signature
 
     }
+    @Pointcut("@annotation(aop.Loggable)")
+    private void annotation(){}
 
-    @Before("selectSound()")
-    public void aboutToSound(){
-        System.out.println("Before : Sound ");
+//    @Before("selectSound()")
+//    public void aboutToSound(){
+//        System.out.println("Before : Sound ");
+//    }
+
+    @Before("annotation()")
+	public void annotationTest(){
+	    System.out.println("Annotation : Test");
     }
 }

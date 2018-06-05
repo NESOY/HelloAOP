@@ -1,0 +1,5 @@
+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ôÏ¤¢üÿÿÿÿ8ùÀŸÅ«,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(˜Êœ«8Æ•™Å«,
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ï™Ù‰ùÿÿÿÿ8ÃÞ–Å«,

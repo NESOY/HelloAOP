@@ -11,7 +11,7 @@ public class Cat implements AnimalType {
         this.myName = myName;
     }
 
-
+    @Loggable
     public void sound() {
         System.out.println("Cat name=" + myName + ": Meow");
     }
